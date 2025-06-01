@@ -1,0 +1,76 @@
+# Documento de Requisitos - Sistema de Checkout E-commerce
+
+## 1. Visão Geral do Projeto
+O projeto consiste no desenvolvimento de uma página de checkout responsiva para e-commerce utilizando Bootstrap e jQuery, com foco em 
+usabilidade e experiência do usuário.
+
+## 2. Requisitos Funcionais
+
+### 2.1 Carrinho de Compras
+- RF01: Exibir lista de produtos no carrinho
+- RF02: Mostrar valor total da compra
+- RF03: Permitir aplicação de códigos promocionais
+- RF04: Atualizar valores automaticamente
+
+### 2.2 Formulário de Endereço - Campos obrigat´rorios e que precisam ser validados antes do envio de formulário
+- RF05: Campo para nome completo
+- RF06: Campo para login
+- RF07: Campo para email
+- RF08: Campos para endereço completo
+- RF09: Combo box de estado
+- RF10: Campo para CEP
+- RF11: Opção de check para usar mesmo endereço de cobrança
+- RF12: Opção de check para salvar informações
+
+### 2.3 Pagamento
+- RF13: Seleção de método de pagamento (Crédito, Débito, PayPal)
+- RF14: Campos para dados do cartão
+- RF15: Validação do número do cartão
+- RF16: Campo para data de validade (MM/YY)
+- RF17: Campo para código de segurança (CVV)
+- RF18: Ao clicar em pagar deve dar um alert com os dados de formulário
+
+## 3. Requisitos Não Funcionais
+
+### 3.1 Usabilidade
+- RNF01: Interface responsiva
+- RNF02: Design limpo e intuitivo
+- RNF03: Feedback visual de validação
+- RNF04: Mensagens de erro claras
+
+### 3.2 Segurança
+- RNF05: Validação de dados em tempo real
+
+### 3.3 Performance
+- RNF06: Carregamento rápido da página
+- RNF07: Compatibilidade cross-browser
+
+## 4. Critérios de Aceitação
+
+### 4.1 Layout
+- CA01: Página deve seguir o layout Bootstrap
+- CA02: Elementos devem estar corretamente alinhados
+- CA03: Responsividade em diferentes dispositivos
+
+### 4.2 Funcionalidade
+- CA04: Todos os campos obrigatórios devem ser validados
+- CA05: Formulário não deve enviar com dados inválidos
+- CA06: Cálculos de valores devem estar corretos
+
+### 4.3 Integração
+- CA07: Compatibilidade com jQuery 3.2.1
+- CA08: Funcionamento correto do Bootstrap
+- CA09: Scripts carregados na ordem correta
+
+## 5. Tecnologias Requeridas
+- Bootstrap 5.3.x
+- jQuery 3.7.x
+- HTML5
+- CSS3
+- JavaScript
+
+## 6. Entregáveis
+- Código-fonte documentado
+- Arquivos de estilo CSS em arquivo separado
+- Scripts JavaScript em arquivo separado
+- Documentação de implementação
